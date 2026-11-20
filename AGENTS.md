@@ -13,3 +13,8 @@ Tác giả: Phạm Ngọc Trung Quân (MSSV: 2A202603626, Lớp K5-L3A).
 ## Nguyên tắc Phase 1
 - Tuyệt đối tách riêng logic mô phỏng (`src/sim`) khỏi phần render (`src/client`) để headless chạy 60 tick/s không phụ thuộc DOM/WebGL.
 - Tuân thủ Test Contract v1.0: tính tất định, format JSONL snapshot/event/end chuẩn xác.
+
+## Cập nhật Phase 2 (Contract v1.1)
+- Hỗ trợ đầy đủ 3 Đêm: Đảo Bến, Đảo Cau (cầu tre, bục nhảy), Đảo Chuông (3 tầng, dốc, gió mạnh).
+- Cơ chế mới: Lướt (Dash), Gió Lạc (Drifter), Bùa Gió (Charm), Tạm dừng (Pause).
+- Kiểm tra hồi quy: Chạy `scripts/verify.sh` để kiểm tra cả 3 đêm và tính tất định.

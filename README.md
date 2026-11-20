@@ -1,16 +1,19 @@
-# Đảo Đèn Lồng — Phase 1
+# Đảo Đèn Lồng — Phase 2
 
 Học viên: **Phạm Ngọc Trung Quân** — MSSV: **2A202603626** — Lớp: **K5-L3A**
 Dự án game 3D góc nhìn thứ ba áp dụng quy trình AI SDLC.
 
-## Trạng thái Phase 1 (PRD-0, Contract v1.0)
-- Hoàn thành Đêm 1 trên Đảo Bến: 5 Đèn Lồng Lớn, đom đóm, Bóng Mực, Tỏa Sáng, tính điểm.
-- Chế độ headless theo Test Contract v1.0 đạt 100% tiêu chí tất định và định dạng output JSONL.
-- Điều khiển: W A S D di chuyển, Space nhảy, F Tỏa Sáng, E nạp ánh sáng.
+## Trạng thái Phase 2 (Ticket-02, Contract v1.1)
+- Mở rộng 3 Đêm:
+  + Đêm 1: Đảo Bến chuẩn hóa
+  + Đêm 2: Đảo Cau (2 đảo nối cầu tre, bục nhảy vượt biển)
+  + Đêm 3: Đảo Chuông (3 tầng địa hình, tháp chuông, gió mạnh từng cơn)
+- Kẻ địch & cơ chế mới: Gió Lạc (cướp đom đóm), Bùa Gió (tăng tốc & lướt liên tục), Lướt (Dash).
+- Giao diện & HUD hoàn chỉnh, menu tạm dừng (Esc/P), âm thanh Web Audio API.
 
 ## Cài đặt và kiểm thử
 ```bash
 npm ci
 npm test
-node src/headless.js --seed 1 --night 1 --ticks 600 --out out.jsonl
+bash scripts/verify.sh
 ```
