@@ -1,5 +1,9 @@
 # Đảo Đèn Lồng — Release v1.0.0
 
+![SDLC](https://img.shields.io/badge/SDLC-Phase%201--4%20Complete-brightgreen)
+![Tests](https://img.shields.io/badge/Tests-286%2F286%20Passing-success)
+![Contract](https://img.shields.io/badge/Test%20Contract-v1.3-blue)
+
 **Video demo (4 phút 55 giây):** [bản trong repo](docs/demo/demo.mp4) · [demo.mp4 trên Release v1.0.0](https://github.com/jadenphm29/K5-L3A-DAY12-PhamNgocTrungQuan-2A202603626-AI-SDLC-Dao-Den-Long/releases/download/v1.0.0/demo.mp4) · **Bản phát hành:** [Release v1.0.0](https://github.com/jadenphm29/K5-L3A-DAY12-PhamNgocTrungQuan-2A202603626-AI-SDLC-Dao-Den-Long/releases/tag/v1.0.0)
 
 > Video demo gồm: trải nghiệm gameplay Đêm 1 (Đảo Bến), vượt thử thách Đêm 2 (Đảo Cau) & Đêm 3 (Đảo Chuông), các tính năng trợ năng/bảng màu mù màu, màn hình Bình Minh và xác minh kiểm thử tự động (286 tests, bench, soak, tính tất định).

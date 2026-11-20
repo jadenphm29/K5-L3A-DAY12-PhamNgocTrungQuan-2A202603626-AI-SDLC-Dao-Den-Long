@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Dao Den Long - 3D third-person game with a headless test mode (Day 12 AI SDLC lab)",
+  "author": "Pham Ngoc Trung Quan <2A202603626>",
   "license": "MIT",
   "engines": {
     "node": ">=20"
