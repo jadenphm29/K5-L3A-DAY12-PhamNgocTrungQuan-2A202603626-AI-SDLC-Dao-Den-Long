@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Đảo Đèn Lồng</title>
+</head>
+<body>
+  <canvas id="view"></canvas>
+
+  <div id="hud" hidden>
+    <div class="panel tl">
+      <div class="lbl">Ngọn Lửa</div>
+      <div id="flames" class="flames"></div>
+    </div>
+    <div class="panel tc">
+      <div id="nightLabel" class="lbl small">Đêm 1 · Đảo Bến</div>
+      <div id="time" class="time">--:--</div>
+    </div>
+    <div class="panel tr">
+      <div class="row"><span class="lbl">Đèn đang sáng</span><b id="lit">—</b></div>
+      <div id="lanternPips" class="pips"></div>
+      <div id="lanternGoal" class="small"></div>
+      <div class="row"><span class="lbl">Điểm</span><b id="score" class="score">0</b></div>
+    </div>
+
+    <div id="toasts"></div>
+    <div id="windWarn" class="windwarn" hidden>Gió sắp nổi! Bám chắc nhé</div>
+
+    <div id="arrow" class="arrow" hidden>
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 L34 30 L20 24 L6 30 Z"/></svg>
+      <span id="arrowDist"></span>
+    </div>
+
+    <div id="caption" class="caption" role="status" aria-live="polite" hidden></div>
+    <div id="shadeArrow" class="arrow shade" hidden>
+      <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 L34 30 L20 24 L6 30 Z"/></svg>
+    </div>
+
+    <div id="prompt" class="prompt" hidden></div>
+
+    <div class="bottom-center">
+      <div class="lbl small">Đom đóm <b id="carried">—</b></div>
+      <div id="moteBar" class="motebar"></div>
+    </div>
+
+    <div class="skills">
+      <div id="skillDash" class="skill">
+        <div class="ring"><span class="ico ico-dash"></span></div>
+        <div class="skill-txt"><b>Lướt</b> <kbd id="kbdDash">Shift</kbd><div class="small" id="dashState">Sẵn sàng</div></div>
+      </div>
+      <div id="skillPulse" class="skill">
+        <div class="ring"><span class="ico ico-pulse"></span></div>
+        <div class="skill-txt"><b>Tỏa Sáng</b> <kbd id="kbdPulse">F</kbd><div class="small" id="pulseState">Sẵn sàng</div></div>
+      </div>
+      <div id="skillCharm" class="skill charm" hidden>
+        <div class="ring"><span class="ico ico-charm"></span></div>
+        <div class="skill-txt"><b>Bùa Gió</b><div class="small" id="charmState">0.0s</div></div>
+      </div>
+    </div>
+
+    <div class="help panel" id="helpBox"></div>
+  </div>
+
+  <div id="fps" class="fps" hidden></div>
+  <div id="hit"></div>
+  <div id="screen" class="overlay" hidden></div>
+
+  <script type="module" src="/src/client/main.js"></script>
+</body>
+</html>
