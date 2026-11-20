@@ -18,3 +18,10 @@ Tác giả: Phạm Ngọc Trung Quân (MSSV: 2A202603626, Lớp K5-L3A).
 - Hỗ trợ đầy đủ 3 Đêm: Đảo Bến, Đảo Cau (cầu tre, bục nhảy), Đảo Chuông (3 tầng, dốc, gió mạnh).
 - Cơ chế mới: Lướt (Dash), Gió Lạc (Drifter), Bùa Gió (Charm), Tạm dừng (Pause).
 - Kiểm tra hồi quy: Chạy `scripts/verify.sh` để kiểm tra cả 3 đêm và tính tất định.
+
+## Cập nhật Phase 3 (Contract v1.2) - Change Request
+- Luật mới: Đèn cạn dầu (1 đơn vị/s). Bóng Mực hút dầu khi đèn < 30.
+- Thắp lại đèn cũ chỉ tốn 5 đom đóm.
+- Thắng mới: Sống sót tới bình minh và giữ >= 60% số đèn đang sáng.
+- Bảng màu mù màu (Colorblind mode) & tăng sức chứa dần (capacity progression).
+- Ghi rõ quyết định trong ADR 0001 và cập nhật CHANGELOG.
